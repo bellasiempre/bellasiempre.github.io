@@ -1,0 +1,400 @@
+:root{
+
+     /*Colores de el documento en general*/
+
+    --color_primario:  #8ccdca;
+    --color_secundario: #464646;
+    --color_terciario: #ffffff;
+    --color_cuaternario: #56aba7;
+
+    /*Colores de contenedor_colores con variables*/
+
+    --color_2:  #95d3e4;
+    --color_3:  #a6cedd;  
+    --color_4:  #1e9ec5; 
+    --color_5:  #6b9ed5;
+    --color_6:  #9c91c5;
+    --color_7:  #d0a9d0;
+    --color_8:  #f086a7;
+    --color_9:  #ec657e;
+
+    --type:'Raleway', sans-serif; 
+
+}
+
+* {
+    margin: 0em; 
+    padding: 0em; 
+    box-sizing: border-box; 
+    font-family: 'Raleway', sans-serif; 
+    text-decoration: none;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+/*Acá empiezo el desarrollo de la página*/
+
+.logo {
+    width: 7.5em;
+    margin: auto;
+}
+
+header .contenedor_menu {
+    display: flex;
+    width: 65%;
+    margin: 0.6em 1.5em 0.6em 3.1em;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header {
+    border-bottom:0.3em solid var(--color_terciario) ;
+    text-align: center;
+    background-color: var(--color_primario);
+    padding: 1.2em 0.9em;
+}
+
+header .menu {
+    margin: 0.6em;
+    margin-bottom:  0.6em;
+}
+
+header .menu ul li {
+    display: inline;
+}
+
+header .menu ul li a{
+    color: var(--color_terciario);
+    font-size: 1.3em;
+    padding: 0.4em 1em;
+}
+
+header .menu ul li a:hover{
+    text-decoration: underline;
+    color: var(--color_terciario);
+}
+
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2em;
+    font-weight: 600;
+    margin-bottom: 1.2em;
+    color: var(--color_primario);
+}
+
+h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2em;
+    font-weight: 600;
+    margin-top: 1em;
+    margin-bottom: 1.2em;
+    color: var(--color_terciario);
+}
+
+h4 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.1em;
+    font-weight: 600;
+    margin-top: 0.6em;
+    margin-bottom: 1.2em;
+    color: var(--color_terciario);
+}
+
+h5 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2.4em;
+    font-weight: 600;
+    margin-top: 0.6em;
+    margin-bottom: 1.8em;
+    color: var(--color_terciario);
+}
+
+h6 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    font-weight: 100;
+    margin-top: 1em;
+    margin-bottom: 0.6em;
+    color: var(--color_cuaternario);
+}
+
+p{
+    font-family: 'Raleway', sans-serif; 
+    font-weight: 200;
+    color: var(--color_cuaternario);
+    font-size: 1.05em;
+}
+
+.imagen_logo{
+    width: 62.5em;
+    margin: auto;
+    margin-left: 4.3em;
+}
+
+.contenedor_marca {
+    display: flex;
+    width: 80%;
+    margin: auto;
+    margin: 4.3em 0.8em 1.2em 4.3em ;
+    align-content: center;
+    font-size: 1.2em;
+}
+
+.contenedor_marca .caja_1{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+.coloresss{
+    background-color: var(--color_secundario);
+    margin-top: 5.6em;
+}
+
+.coloresss .colores{
+    width: 80%;
+    margin: auto;
+    font-size: 1.5em;
+    display: flex;
+    flex-direction: column;
+    padding-top: 2.8em;
+    padding-bottom: 3.7em;
+}
+
+.contenedor_colores{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    gap: 2.2em;
+    margin: 1.2em;
+    color: var(--color_terciario);
+}
+
+.contenedor_colores .wd {
+    width: 21.8em;
+}
+
+.contenedor_colores .color_1 {
+    background-color: var(--color_primario);
+    font-size: 0.6em;
+    padding: 2.4em;
+    border-radius: 1.1em;
+}
+
+.contenedor_colores .color_2 {
+    background-color: var(--color_2);
+    font-size: 0.6em;
+    padding: 2.4em;
+    border-radius: 1.1em;
+}
+
+.contenedor_colores .color_3 {
+    background-color: var(--color_3);
+    font-size: 0.6em;
+    padding: 2.4em;
+    border-radius: 1.1em;
+}
+
+.contenedor_colores .color_4 {
+    background-color: var(--color_4);
+    font-size: 0.6em;
+    padding: 2.4em;
+    border-radius: 1.1em;
+}
+
+.contenedor_colores .color_5 {
+    background-color: var(--color_5);
+    font-size: 0.6em;
+    padding: 2.4em;
+    border-radius: 1.1em;
+}
+
+.contenedor_colores .color_6 {
+    background-color: var(--color_6);
+    font-size: 0.6em;
+    padding: 2.4em;
+    border-radius: 1.1em;
+}
+
+.contenedor_colores .color_7 {
+    background-color: var(--color_7);
+    font-size: 0.6em;
+    padding: 2.4em;
+    border-radius: 1.1em;
+}
+
+.contenedor_colores .color_8 {
+    background-color: var(--color_8);
+    font-size: 0.6em;
+    padding: 2.4em;
+    border-radius: 1.1em;
+}
+
+.contenedor_colores .color_9 {
+    background-color: var(--color_9);
+    font-size: 0.6em;
+    padding: 2.4em;
+    border-radius: 1.1em;
+}
+
+.footer {
+    background-color: var(--color_primario);
+    padding: 3.1em;
+}
+
+.contenedor_footer {
+    display: flex;
+    width: 75%;
+    margin: auto;
+    justify-content: space-between;
+    padding: 3.7em 0.6em 3.7em 0.6em;
+}
+
+.contenedor_footer a {
+    color: var(--color_terciario);
+}
+
+.redes_sociales {
+    margin-right: 1.2em;
+    font-size: 1.5em;
+}
+
+.redes_sociales a{
+    text-decoration: none;
+}
+
+.redes_sociales li {
+    list-style: none;
+    padding: 1.1em 1em 0em 0em ;
+}
+
+.redes_sociales ul li {
+    display: inline;
+}
+
+.redes_sociales ul li a:hover {
+    color: var(--color_cuaternario);
+}
+
+.contenido li {
+list-style: none;
+}
+
+.productos ul li {
+    margin-top: 15px;
+}
+
+.productos ul li a:hover {
+    text-decoration: underline;
+}
+
+.compañía ul li {
+    margin-top: 1em;
+}
+
+.compañía ul li a:hover {
+    text-decoration: underline;
+}
+
+.recursos ul li {
+    margin-top: 1em;
+}
+
+.recursos ul li a:hover {
+    text-decoration: underline;
+}
+
+.políticas ul li {
+    margin-top: 1em;
+}
+
+.políticas ul li a:hover {
+    text-decoration: underline;
+}
+
+
+/* ##Dispositivo = Smartphones de 320px a 479px */
+@media (min-width: 320px) and (max-width: 480px) {
+
+    .contenedor_menu {
+        flex-direction: column;
+    }
+    
+    .contenedor_menu .logo {
+        width: 70%;
+        margin-bottom: 0.8em;
+        margin-top: 1.2em;
+    }
+    
+    .menu ul li {
+    display: block;
+    font-size: 0.8em;
+    }
+    
+    .menu{
+       padding: 0.5em;
+       margin: 0.5em;
+    }
+
+    .contenedor_marca {
+        flex-direction: column;
+        font-size: 0.9em;
+        padding-bottom: 0.8em;
+        justify-content: center;
+    }
+
+
+    .contenedor_marca {
+        margin: 4em 1em 1.2em 2.8em ;
+    }
+
+    .logo {
+        width: 20em;
+        margin: auto;
+        justify-content: center;
+    }
+    
+
+    .imagen_logo{
+        width: 8em;
+        margin: auto;
+        margin-top: 1.5em;
+        padding-top: 1.2em;
+        justify-content: center;
+    }
+
+    .coloresss{
+        font-size: 0.7em;
+        justify-content: center;
+    }
+
+    .footer{
+        flex-wrap: wrap;
+        justify-content:center;
+    }
+
+    .contenedor_footer .contenido{
+        align-items: center;
+        width: 85%;
+    }
+
+    .contenedor_footer{
+        flex-direction: column;
+    }
+
+    .redes_sociales{
+        display: inline;
+        padding-right: 1em;
+        margin-bottom: 0.7em; 
+        font-size: 0.7em; 
+    }
+
+    h5{
+        font-size: 1.5em;
+    }
+
+
+}
